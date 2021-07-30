@@ -1,58 +1,59 @@
 $(document).ready(function(){
-    $("design").click(function(){
-$("DESIGN").show();
+    $(".design").click(function(){
+$("#DESIGN").show();
 $("").removeClass();
-$("").addClass("DESIGN")
+$("").addClass("#DESIGN")
     });
 });
 $(document).ready(function(){
-    $("dev").click(function(){
-$("DEVELOPMENT").show();
+    $(".development").click(function(){
+$(".development").show();
+$("#DEVELOPMENT").show();
 $("").removeClass();
-$("").addClass("DEVELOPMENT")
+$("").addClass(".development")
     });
 });
 $(document).ready(function(){
-    $("product").click(function(){
-$("PRODUCTMANAGEMENT").show();
-$("").removeClass();
-$("").addClass("PRODUCTMANAGEMENT")
+    $(".management").click(function(){
+$("#PRODUCTMANAGEMENT").show()
+$("").removeClass(".");
+$("").addClass()
     });
 });
 
-////
-$(document).ready(function () {
-    $("#dev-img").click(function () {
-        $("#dev-img").toggle('1500').hide('1000');
-        $("#DEVELOPMENT").show('1500');
-    });
-    $("#DEVELOPMENT").click(function () {
-        $("#DEVELOPMENT").toggle('1500');
-        $("#dev-img").toggle('1500');
-    });
-});
 
-$(document).ready(function () {
-    $("#design-img").click(function () {
-        $("#design-img").toggle('1500').hide('1000');
-        $("#DESIGN").show('1500');
-    });
-    $("#DESIGN").click(function () {
-        $("#DESIGN").toggle('1500');
-        $("#design-img").toggle('1500');
-    });
-});
+//$(document).ready(function () {
+  //  $(".development").click(function () {
+    //    $(".development").toggle('1500').hide('1000');
+      //  $("#DEVELOPMENT").show('1500');
+    //});
+    //$("#DEVELOPMENT").click(function () {
+     //   $("#DEVELOPMENT").toggle('1500');
+       // $(".development").toggle('1500');
+    //});
+//});
 
-$(document).ready(function () {
-    $("#product-img").click(function () {
-        $("#product-img").toggle('1500').hide('1000');
-        $("#PRODUCTMANAGEMENT").show('1500');
-    });
-    $("#PRODUCTMANAGEMENT").click(function () {
-        $("#PRODUCTMANAGEMENT").toggle('1500');
-        $("#product-img").toggle('1500');
-    });
-});
+//$(document).ready(function () {
+//    $(".design ").click(function () {
+  //      $(".design ").toggle('1500').hide('1000');
+    //    $("#DESIGN").show('1500');
+    //});
+    //$("#DESIGN").click(function () {
+      //  $("#DESIGN").toggle('1500');
+        //$(".design ").toggle('1500');
+    //});
+//});
+
+//$(document).ready(function () {
+    //$(".product").click(function () {
+        //$(".product").toggle('1500').hide('1000');
+      //  $("#PRODUCTMANAGEMENT").show('1500');
+    //});
+   // $("#PRODUCTMANAGEMENT").click(function () {
+ //       $("#PRODUCTMANAGEMENT").toggle('1500');
+      //  $(".product").toggle('1500');
+   // });
+//});
 
 $(document).ready(function () {
     $("#work1").mouseover(function () {
@@ -109,12 +110,12 @@ $(document).ready(function () {
 //This doesnt really dispaly the expected result
 
 $(document).ready(function () {
-    $("contact us").submit(function (event) {
+    $(".btn-primary").click(function (event) {
          event.preventDefault();
-        var name = $("input#name").val();
-        var email = $("input#mail").val();
-        var message = $("textarea#feedback").val();
-        if ($("input#name").val() && $("input#mail").val()) {
+        var name = $("#name").val();
+        var email = $("#mail").val();
+        var message = $("#feedback").val();
+        if ($("#name").val() !=="" && $("#mail").val()!=="") {
             alert(name + ", we have received your message. Thank you for reaching out to us.");
         }
         else {

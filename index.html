@@ -1,190 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
-
+​
 <head>
 	<!-- CSS only -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-	integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="css/style.css" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap" rel="stylesheet">
-	<script src="js/script.js" ></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap" rel="stylesheet">
+	<script src="js/script.js"></script>
 	<title>Document</title>
 </head>
-
+​
 <body>
-	<div class="container">
-
-		<div class="one">
-			<p >
-		 	
-			 WELCOME<br>
-			 TO DELANI STUDIOS<p id="tiny">
-		     AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN AN FUN ENVIRONMENT</p>
-			
+	<div class="container-fluid">
+		<div class="row text-center header">
+			<div class="logo">
+				<img src="./IMAGES/logo.mouse/logo/logo.png" alt="">
+			</div>
+			<h1>
+				WELCOME<br>
+				TO DELANI STUDIOS
+			</h1>	
+			<p>
+				AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN AN FUN ENVIRONMENT
 			</p>
+			<div class="mouse-click">
+				<img src="./IMAGES/logo.mouse/mouse_click.png" alt="">
+			</div>
 		</div>
-
-		<div>
-			<h style="text-align: center;"> <b><pre>ABOUT US</pre></b></h>
-			<div class="ABOUT-US">
-	   	<p>	<pre>    
-	When you work with us you are part of a team of committed collaborators.All aspects of our software development process are intergrated,interactive
-		                      and agile.
-	Our approach unifies design,development and product management to create exceptional products.
-
-	We start each project by understanding your business goals, the user's needs and product requirements
-	Then we help transalate them into effectiveand elegant solutions.
-				</pre>
+		<div class="row text-center d-flex flex-column justify-content-center align-content-center">
+				<h2>ABOUT US</h2>
+				<p>When you work with us you are part of a team of committed collaborators. <br> All aspects of our software development process are intergrated,interactive
+					and agile. <br>
+					Our approach unifies design,development and product management to create exceptional products. <br>
+					We start each project by understanding your business goals, the user's needs and product requirements <br>
+					Then we help transalate them into effectiveand elegant solutions.
+				</p>
+		</div>
+​
+		<div class="row Services text-center d-flex flex-column justify-content-center align-content-center">
+			<h2><b>SERVICES</b></h2>
+			<div class="services">
+				<p>
+					Before we sign in a contract or write a line of code our team will spend the necessary time needed to understand your product vision
+					<br> The outcome of this scoping session ia proposal or high-level statement of work. <br>
+					Based on your requirements,we can provide acomplete offering or just pieces you need.
 				</p>
 			</div>
 		</div>
-
-    <div class="Services">
-  	<h><b>SERVICES</b></h>
-	<div class="services">
-		<p>
-			Before we sign in a contract or write a line of code our team will spend the necessary time needed to
-			understand your product vision
-			The outcome of this scoping session ia proposal or high-level statement of work.
-			based on your requirements,we can provide acomplete offering or just pieces you need.
-
-		</p>
+        <div class="row text-center d-flex justify-content-center align-content-center">
+			<h2>WHAT WE DO</h2>
+			<div class="col-lg-3 col-md-3 design">
+				<img src="./IMAGES/service icons/design_icon.png " alt="">
+				<div id="DESIGN">
+					<p>Our design practice offers a full range of services including brand strategy, interaction and visual
+						design
+						and user experience testing.
+						Throughout your project, our designers create and implement visual design and workflows, solicit user
+						feedback and work with you to make sure what gets built is what is needed.
+					</p>
+				</div>
+				<h>DESIGN</h>
+			</div>
+			<div class="col-lg-3 col-md-3 development">
+				<img src="./IMAGES/service icons/dev_icon.png" alt="">
+				<div id="DEVELOPMENT">
+					<p> All engineers are fluent in the latest enterprise, mobile and web development technologies.
+						They collaborate with your team to write, and improve code on a daily basis, using proven practices such
+						as
+						test-driven development and pair programming.
+					</p>
+				</div>
+				<h>DEVELOPMENT</h>
+			</div>
+​
+			<div class="col-lg-3 col-md-3 management">
+				<img src="./IMAGES/service icons/product_icon.png" alt="">
+				<div id="PRODUCTMANAGEMENT">
+					<p> Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. 
+						This iterative process allows for changes as business requirements evolve.
+					</p>
+				</div>
+				<h>PRODUCT MANAGEMENT</h>
+			</div>
+		</div>
+		<div class="row text-center portfolio">
+			<h2>PORTFOLIO</h2>
+			<div class="col-lg-3 col-md-4" id="work1">
+				<img src="IMAGES/images/portofolio/1.jpg" width="100%" alt="one">
+				<p id="back0" class="text">Plain black</p>
+			</div>
+			<div class="col-lg-3 col-md-4" id="work2">
+				<img src="IMAGES/images/portofolio/2.jpg" width="100%" alt="two" id="work2">
+				<p id="back2" class="text">Pyramids</p>
+			</div>
+			<div class="col-lg-3 col-md-4" id="work3">
+				<img src="IMAGES/images/portofolio/3.jpg" width="100%" alt="three">
+				<p id="back3" class="text">Ontario </p>
+			</div>
+			<div class="col-lg-3 col-md-4" id="work4">
+				<img src="IMAGES/images/portofolio/4.jpg" width="100%" alt="four">
+				<p id="back4" class="text">Jim 85</p>
+			</div>
+		</div>
+		<div class="row" id="portfolio">
+			<div class="col-lg-3 col-md-3" id="work5">
+				<img src="IMAGES/images/portofolio/5.jpg" width="100%" alt="five">
+				<p id="back5" class="text">Blessed Day Ahead</p>
+			</div>
+			<div class="col-lg-3 col-md-3" id="work6">
+				<img src="IMAGES/images/portofolio/6.jpg" width="100%" alt="six">
+				<p id="back6" class="text">Calculator</p>
+			</div>
+			<div class="col-lg-3 col-md-3" id="work7">
+				<img src="IMAGES/images/portofolio/7.jpg" width="100%" alt="seven">
+				<p id="back7" class="text">Burned</p>
+			</div>
+			<div class="col-lg-3 col-md-3" id="work8">
+				<img src="IMAGES/images/portofolio/8.jpg" width="100%" alt="eight">
+				<p id="back8" class="text">Giraffe Restaurant</p>
+			</div>
+		</div>
 	</div>
-</div>
-
-	<h3><b>WHAT WE DO</b></h3>
-	<div class="service-icons"> 
-		<pre>
-            
-	    </pre>
-	</div> 
-	<div id="DESIGN">
-		<p>Our design practice offers a full range of services including brand strategy, interaction and visual design
-			and user experience testing.
-			Throughout your project, our designers create and implement visual design and workflows, solicit user
-			feedback and work with you to make sure what gets built is what is needed.
-		</p>
-	</div>
-
-	<div id="design-img">
-	<img  src="/IMAGES/service icons/design_icon.png" height=50>  	
-	<p>DESIGN</p>
-	</div>
-
-
-
-
-	<div id="DEVELOPMENT">
-		<p>All and engineers are fluent in the latest enterprise, mobile and web development technologies.
-			They collaborate with your team to write, and improve code on a daily basis, using proven practices such as
-			test-driven development and pair programming.
-		</p>
-	</div>
-    <div id="dev-img"> 
-	  <img   src="/IMAGES/service icons/dev_icon.png" height="50"> 
-	  <p>DEVELOPMENT</p>
-	</div>
-
-
-	<div id="PRODUCTMANAGEMENT">
-		<p> All engineers are fluent in the latest enterprise, mobile and web development technologies.
-			They collaborate with your team to write, and improve code on a daily basis, using proven practices such as
-			test-driven development and pair programming.
-		</p>
-	</div>
-    <div id="product-img"> 
-        <img  src="/IMAGES/service icons/product_icon.png" height="50">
-		<p>PRODUCTMANAGEMENT</p>
-	</div> 
-
-
-
-	<h2>PORTFOLIO</h2>
-    <div class="row" id="portfolio">
-      <div class="col-md-3" id="work1">
-        <img src="IMAGES/images/portofolio/1.jpg" height="80" alt="one">
-        <p id="back0" class="text">Plain black</p>
-      </div>
-      <div class="col-md-3" id="work2">
-        <img src="IMAGES/images/portofolio/2.jpg" height="80" alt="two" id="work2">
-        <p id="back2" class="text">Pyramids</p>
-      </div>
-      <div class="col-md-3" id="work3">
-        <img src="IMAGES/images/portofolio/3.jpg" height="80" alt="three">
-        <p id="back3" class="text">Ontario </p>
-      </div>
-      <div class="col-md-3" id="work4">
-        <img src="IMAGES/images/portofolio/4.jpg" height="80" alt="four">
-        <p id="back4" class="text">Jim 85</p>
-      </div>
-    </div>
-    <div class="row" id="portfolio">
-      <div class="col-md-3" id="work5">
-        <img src="IMAGES/images/portofolio/5.jpg" height="80" alt="five">
-        <p id="back5" class="text">Blessed Day Ahead</p>
-      </div>
-      <div class="col-md-3" id="work6">
-        <img src="IMAGES/images/portofolio/6.jpg" height="80" alt="six">
-        <p id="back6" class="text">Calculator</p>
-      </div>
-      <div class="col-md-3" id="work7">
-        <img src="IMAGES/images/portofolio/7.jpg" height="80" alt="seven">
-        <p id="back7" class="text">Burned</p>
-      </div>
-      <div class="col-md-3" id="work8">
-        <img src="IMAGES/images/portofolio/8.jpg" height="80" alt="eight">
-        <p id="back8" class="text">Giraffe Restaurant</p>
-      </div>
-    </div>
-  </div>
-
-	<div id="contact us">
+​
+	<div id="contactus row">
 		<form>
-            <div class="form-group">    
-			  <div class="form-name">
-				<label for="name"></label>
-				<input id="name" placeholder="Name..." type="text">
-				<label for="mail"></label>
-				<input id="mail" placeholder="Email..." type="email">
-			  </div>
-
-			     <div>
-				 <label for="Write something"></label>
-				 <input id="feedback" placeholder="Your message here...">
-			   </div>
-            </div>
-			<!--<button type="submit" class="btn btn-primary col-md-1">Submit</button>-->
+			<div class="form-group">
+				<div class="form-name text-center">
+					<label for="name"></label>
+					<input id="name" placeholder="Name..." type="text">
+					<label for="mail"></label>
+					<input id="mail" placeholder="Email..." type="email">
+				</div>
+​
+				<div class="text-center">
+					<label for="Write something"></label>
+					<input id="feedback" placeholder="Your message here..."> <br>
+					<button type="button" class="btn btn-primary col-md-1">Submit</button>
+				</div>
+				
+			</div>
+			<!-- <button type="button" class="btn btn-primary col-md-1">Submit</button> -->
 		</form>
 	</div>
-
-    <div class="footer">
-		<img src="../IMAGES/footer/1twitter.png" height="30">
-		<img src="../IMAGES/footer/2dribble.png" height="30">
-		<img src="../IMAGES/footer/3facebook.png" height="30">
-		<img src="../IMAGES/footer/4g_plus.png" height="30">
-		<img src="../IMAGES/footer/5skype.png" height="30">
-		<img src="../IMAGES/footer/6stumble_upon.png" height="30">
-		<img src="../IMAGES/footer/7behance.png" height="30">
-		<img src="../IMAGES/footer/8pinterest.png" height="30">
-        <img src="../IMAGES/footer/9flickr.png" height="30">
-    </div>
-
-
+​
+	<div class="footer text-center">
+		<img src="../IMAGES/footer/1twitter.png" height="25">
+		<img src="../IMAGES/footer/2dribble.png" height="25">
+		<img src="../IMAGES/footer/3facebook.png" height="25">
+		<img src="../IMAGES/footer/4g_plus.png" height="25">
+		<img src="../IMAGES/footer/5skype.png" height="25">
+		<img src="../IMAGES/footer/6stumble_upon.png" height="25">
+		<img src="../IMAGES/footer/7behance.png" height="25">
+		<img src="../IMAGES/footer/8pinterest.png" height="25">
+		<img src="../IMAGES/footer/9flickr.png" height="25">
+	</div>
+​
+​
 	<div>
 		<p id="last-p">
 			DELANI STUDIOS<br>
 			2019
 		</p>
 	</div>
-
-
-</div>
+​
+​
+	</div>
 </body>
-
+​
 </html>
